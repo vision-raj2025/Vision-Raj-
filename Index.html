@@ -82,7 +82,93 @@
     @keyframes fadeIn {
       from {opacity: 0;}
       to {opacity: 1;}
+    }<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vision Raj</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #000428, #004e92);
+      color: white;
+      text-align: center;
+      padding: 30px;
     }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    p {
+      font-size: 1.2em;
+      max-width: 600px;
+      margin: auto;
+      margin-bottom: 20px;
+    }
+
+    a {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      background-color: #00c9a7;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    a:hover {
+      background-color: #007f6b;
+    }
+
+    .shayari {
+      margin-top: 40px;
+      font-style: italic;
+      font-size: 1.1em;
+      color: #ffd700;
+    }
+
+    .about {
+      margin-top: 30px;
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    @keyframes fadeIn {
+      0% { opacity: 0; transform: translateY(-20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to Vision Raj 🌟</h1>
+  <p><a href="https://www.youtube.com/@yourchannel" target="_blank">📺 YouTube</a>
+     <a href="https://www.instagram.com/yourprofile" target="_blank">📸 Instagram</a>
+     <a href="mailto:youremail@gmail.com">📧 Email</a>
+     <a href="https://yourprofilelink.com" target="_blank">🧑‍💻 My Profile</a>
+  </p>
+
+  <div class="shayari">
+    “Paise ki baat mat kar, kamane wale kabhi ginte nahi…💸”
+  </div>
+
+  <div class="about">
+    <h2>About Me</h2>
+    <p>This is my personal website built with love and ambition. Here I’ll be sharing my journey, updates, projects, and my digital presence. Follow along as Vision Raj grows into something legendary. 💻🚀</p>
+  </div>
+</body>
+</html>
 
     @keyframes fadeInDown {
       from {opacity: 0; transform: translateY(-30px);}
